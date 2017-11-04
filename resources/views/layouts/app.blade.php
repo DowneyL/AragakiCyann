@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('styles')
     <link rel="shortcut icon" href="panda.png">
 </head>
 
@@ -32,5 +33,6 @@
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
+@yield('scripts')
 </body>
 </html>
